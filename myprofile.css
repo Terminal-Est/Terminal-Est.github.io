@@ -7,8 +7,17 @@ h1 {
 	font-size: 40px;
 }
 
+p {
+	text-align: center;
+	text-align: justify;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-left: 800px;
+	margin-right: 800px;
+}
 
 body {
 	background-color: #B0D9D7;
 	font-family: "Helvetica", Light;
 }
+
