@@ -1,4 +1,11 @@
 @charset "UTF-8";
+
+h1 {
+	font-style: italic;
+	font-size: 40px;
+}
+
+
 body {
 	background-color: #B0D9D7;
 	font-family: "Helvetica", Light;
