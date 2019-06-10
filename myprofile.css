@@ -29,8 +29,6 @@ body {
     padding: 18px 5px 18px 10px;
     background-color: slategray;
     font-family: Helvetica, Light, sans-serif;
-    border-right-style: solid;
-    border-right-width: 3px;
 }
 
 .sidebar a {
