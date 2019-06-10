@@ -11,9 +11,9 @@ body {
 }
 
 #header {
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 90%;
+    margin-left: 7%;
+    margin-right: 200px;
     background-color: LightSkyBlue;
     padding: 50px 50px;
     font-family: Helvetica, Light, sans-serif;
@@ -21,7 +21,7 @@ body {
 
 .sidebar {
     height: 100%;
-    width: 160px;
+    width: 7%;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -45,20 +45,18 @@ body {
 }
 
 #body {
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 90%;
+    margin-left: 7%;
     background-color: slategray;
     padding: 50px 50px 150px 50px;
     font-family: Helvetica, Light, sans-serif;
 }
 
 #footer {
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 90%;
+    margin-left: 7%;
     background-color: LightSkyBlue;
-    padding: 50px 50px 70px 50px;
+    padding: 50px 50px;
     font-family: Helvetica, Light, sans-serif;
 }
 
