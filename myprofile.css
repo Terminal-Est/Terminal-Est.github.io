@@ -6,7 +6,7 @@ h1 {
     font-size: 40px;
 }
 body {
-    background-image: url('images/totalbackground.jpg');
+    background-image: url('Images/totalbackground.jpg');
     background-size: cover;
 }
 
@@ -20,11 +20,12 @@ body {
 }
 
 .sidebar {
+    height: 100%;
     width: 160px;
     position: fixed;
     z-index: 1;
-    top: 8px;
-    left: 550px;
+    top: 0;
+    left: 0;
     background-color: LightSkyBlue;
     overflow-x: hidden;
     padding: 18px 5px 18px 10px;
