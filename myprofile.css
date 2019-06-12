@@ -4,14 +4,14 @@ h1 {
     font-family: Helvetica, sans-serif;
     text-align: center;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 130%;
 }
 
 h2{
     font-family: Helvetica, sans-serif;
     font-style: italic;
     text-align: left;
-    font-size: 30px;
+    font-size: 100%;
 }
 body {
     background-image: url('Images/totalbackground.jpg');
@@ -55,7 +55,6 @@ body {
     width: 90%;
     margin-left: 160px;
     padding: 50px 50px 150px 50px;
-    font-family: Helvetica, Light, sans-serif;
 }
 
 #footer {
@@ -69,5 +68,7 @@ body {
 p {
     text-align: justify-all;
     margin: auto;
+    font-size: 80%;
+    font-family: Helvetica, Light, sans-serif;
 }
 
