@@ -4,14 +4,14 @@ h1 {
     font-family: Helvetica, sans-serif;
     text-align: center;
     font-weight: bold;
-    font-size: 40vw;
+    font-size:5vw;
 }
 
 h2{
     font-family: Helvetica, sans-serif;
     font-style: italic;
     text-align: left;
-    font-size: 30vw;
+    font-size: 3vw;
 }
 body {
     background-image: url('Images/totalbackground.jpg');
@@ -42,7 +42,7 @@ body {
 .sidebar a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 25vw;
+    font-size: 1vw;
     color: black;
     display: block;
 }
@@ -68,7 +68,7 @@ body {
 p {
     text-align: justify-all;
     margin: auto;
-    font-size: 18vw;
+    font-size: 1vw;
     font-family: Helvetica, Light, sans-serif;
 }
 
