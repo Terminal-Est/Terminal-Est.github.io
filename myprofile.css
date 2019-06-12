@@ -1,29 +1,37 @@
 @charset "UTF-8";
 
-h1 {
-    font-family: Helvetica, sans-serif;
-    text-align: center;
-    font-weight: bold;
-    font-size: 50px;
+body, html {
+    height: 100%;
 }
 
-h2{
-    font-family: Helvetica, sans-serif;
-    font-style: italic;
-    text-align: left;
-    font-size: 40px;
-}
-body {
+.bg {
+    height: 110%;
     background-image: url('Images/totalbackground.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #header {
     width: 90%;
     margin-left: 160px;
     margin-right: 200px;
-    padding: 50px 50px;
+    padding: 100px 50px 100px 50px;
     font-family: Helvetica, Light, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#heading1 {
+    width: 90%;
+    margin-left: 160px;
+    padding: 10px 50px 30px 50px;
+    text-align: justify-all;
+    font-family: Helvetica, Light, sans-serif;
+    font-style: italic;
+    font-size: 40px;
+
 }
 
 .sidebar {
@@ -54,7 +62,10 @@ body {
 #body {
     width: 90%;
     margin-left: 160px;
-    padding: 50px 50px 150px 50px;
+    padding: 10px 50px 10px 50px;
+    text-align: justify-all;
+    font-size: 30px;
+    font-family: Helvetica, Light, sans-serif;
 }
 
 #footer {
@@ -65,10 +76,6 @@ body {
 }
 
 
-p {
-    text-align: justify-all;
-    margin: auto;
-    font-size: 30px;
-    font-family: Helvetica, Light, sans-serif;
-}
+
+
 
