@@ -14,10 +14,6 @@
     padding: 15px;
 }
 
-[class*="div-"] {
-    width: 100%;
-}
-
 @media only screen and (min-width: 800px) {
 
     .div-1 {
@@ -72,15 +68,6 @@ html {
     color: black;
     padding: 20px;
     box-shadow: 0 4px 8px rgb(38, 77, 115), 0 6px 20px 0 rgb(25, 51, 77);
-}
-
-.stick {
-    position: fixed;
-    width: 98%;
-}
-
-.stick + .row {
-    padding-top: 100px;
 }
 
 .linksMenu ul {
