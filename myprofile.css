@@ -1,82 +1,120 @@
 @charset "UTF-8";
 
-body, html {
-    height: 100%;
+* {
+    box-sizing: border-box;
 }
 
-.bg {
-    background-image: url('Images/totalbackground.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
-
-#header {
-    width: 90%;
-    float: right;
-    margin-left: 160px;
-    margin-right: 200px;
-    padding: 100px 50px 100px 50px;
-    font-family: Helvetica, Light, sans-serif;
-    text-align: center;
-    font-weight: bold;
-    font-size: 50px;
-}
-
-#heading1 {
-    width: 90%;
-    float: right;
-    padding: 10px 50px 30px 50px;
-    text-align: justify-all;
-    font-family: Helvetica, Light, sans-serif;
-    font-style: italic;
-    font-size: 40px;
-
-}
-
-.sidebar {
-    height: 100%;
-    width: 7%;
+[class*="div-"] {
     float: left;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    overflow-x: hidden;
-    padding: 100px 5px 18px 10px;
-    background-color: slategray;
-    font-family: Helvetica, Light, sans-serif;
+    padding: 15px;
 }
 
-.sidebar a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 32px;
+[class*="div-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 800px) {
+
+    .div-1 {
+        width: 10%;
+    }
+
+    .div-2 {
+        width: 20%;
+    }
+
+    .div-3 {
+        width: 30%;
+    }
+
+    .div-4 {
+        width: 40%;
+    }
+
+    .div-5 {
+        width: 50%;
+    }
+
+    .div-6 {
+        width: 60%;
+    }
+
+    .div-7 {
+        width: 70%;
+    }
+
+    .div-8 {
+        width: 80%;
+    }
+
+    .div-9 {
+        width: 90%;
+    }
+
+    .div-10 {
+        width: 100%;
+    }
+}
+html {
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.header {
+    background-image: url("Images/header01.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: blue;
     color: black;
-    display: block;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgb(38, 77, 115), 0 6px 20px 0 rgb(25, 51, 77);
 }
 
-.sidebar a:hover{
-    color: azure;
+.stick {
+    position: fixed;
+    width: 100%;
 }
 
-#body {
-    width: 90%;
-    float: right;
-    padding: 50px 50px 10px 50px;
-    text-align: justify-all;
-    font-size: 30px;
-    font-family: Helvetica, Light, sans-serif;
+.stick + .row {
+    padding-top: 100px;
 }
 
-#footer {
-    width: 90%;
-    float: right;
-    padding: 50px 50px 50% 50px;
-    font-family: Helvetica, Light, sans-serif;
+.linksMenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 4px 8px rgb(38, 77, 115), 0 6px 20px 0 rgb(25, 51, 77);
 }
 
+.linksMenu li {
+    padding: 15px;
+    background-color: darkred;
+    color: black;
+}
 
+.linksMenu li:hover {
+    background-color: lightcoral;
+}
 
+h1 {
+    text-align: center;
+}
+
+h2 {
+    padding-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
+p {
+    padding-left: 20px;
+}
 
 

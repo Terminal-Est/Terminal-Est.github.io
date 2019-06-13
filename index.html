@@ -1,24 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<link href="myprofile.css" rel="stylesheet" type="text/css"/>
+<head>
+<link href="myprofile.css" rel="stylesheet" type="text/css" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>
+    <title>
     Christopher Stephen's Profile
-</title>
-<div class="sidebar">
-    <a href="index.html">Home</a>
-    <a href="Job.html">Ideal Job</a>
-    <a href="Profile.html">Profile </a>
-    <a href="Project.html">Project</a>
-</div>
+    </title>
+</head>
 <body>
-<div class="bg">
-    <div id="header">Assignment 1: Introduction to IT.</div>
-    <div id="heading1">Name: Christopher Stephen<br>
-        Student ID: s3172455<br>
-        E-mail: cstephen1982@gmail.com</div>
-    <div id="body">Here is some background on myself. My family immigrated from the UK when I was the tender age of 5 and I have</div>
-    <div id="footer">something something</div>
+<div class="header">
+    <h1>
+        Assignment 1: Intro to IT.
+    </h1>
 </div>
+<div class="row">
+    <div class="div-1 linksMenu">
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="Job.html"><li>Job</li></a>
+            <a href="Profile.html"><li>Profile</li></a>
+            <a href="Project.html"><li>Project</li></a>
+        </ul>
+    </div>
+    <div class="div-9 ">
+        <h2>
+            Heading text for body
+        </h2>
+        <p>
+            Body text for paragraph
+        </p>
+    </div>
+</div>
+<script>
+    window.onscroll = function () {
+        headScroll()};
+    let header = document.getElementById("headerScr");
+    let stick = header.offsetTop;
+
+    function headScroll() {
+        if (window.pageYOffset > stick) {
+            header.classList.add("stick");
+        } else {
+            header.classList.remove("stick");
+        }
+
+    }
+</script>
 </body>
 </html>
