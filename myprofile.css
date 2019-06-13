@@ -76,7 +76,7 @@ html {
 
 .stick {
     position: fixed;
-    width: 99%;
+    width: 98%;
 }
 
 .stick + .row {
