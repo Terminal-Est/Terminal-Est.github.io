@@ -7,6 +7,7 @@
         Christopher Stephen's Profile
     </title>
 </head>
+<button onclick="topFunc()" ID="scroll" title="scroll to top">Top</button>
 <body>
 <div class="header">
     <h1>
@@ -31,8 +32,8 @@
         </h3>
         <p>
             According to the online personality test 16personalities.com, I returned an INTJ-T type personality. Otherwise known as the <a href="https://www.16personalities.com/intj-personality">Architect</a>, this
-        </p>
 
+        </p>
     </div>
     <div class="div-2">
         <div class="rightPane">
@@ -68,5 +69,19 @@
         References go here.
     </p>
 </div>
+<script>
+    window.onscroll = function() {scrollTopFunc()};
+    function scrollTopFunc(){
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("scroll").style.display = "block";
+        } else {
+            document.getElementById("scroll").style.display = "none";
+        }
+    }
+    function topFunc() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
 </body>
 </html>
