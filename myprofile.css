@@ -7,18 +7,12 @@
 .row::after {
     content: "";
     clear: both;
-    display: table;
+    display: block;
 }
 [class*="div-"] {
     float: left;
     padding: 15px;
 }
-
-[class*="div-"] {
-    width: 100%;
-}
-
-@media only screen and (min-width: 800px) {
 
     .div-1 {
         width: 10%;
@@ -59,16 +53,19 @@
     .div-10 {
         width: 100%;
     }
+
+@media only screen and (max-width: 800px) {
+    [class*="div-"] {
+        width: 100%;
+    }
 }
+
 html {
     font-family: Tahoma, Geneva, sans-serif;
 }
 
 .header {
-    background-image: url("Images/header01.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: blue;
+    background-color: cadetblue;
     color: black;
     padding: 20px;
     box-shadow: 0 4px 8px rgb(38, 77, 115), 0 6px 20px 0 rgb(25, 51, 77);
@@ -83,7 +80,7 @@ html {
 
 .linksMenu li {
     padding: 15px;
-    background-color: darkred;
+    background-color: cadetblue;
     color: black;
     font-size: 30px;
 }
@@ -92,8 +89,26 @@ html {
     background-color: lightcoral;
 }
 
-.rightPane {
+.rightPane  {
+    text-align: left;
+    padding: 10px;
+}
 
+.rightImg {
+    transition: all 0.5s ease-in-out;
+}
+
+.rightImg:hover {
+    transform: translateX(-300px) scale(1.5);
+}
+
+.footer {
+    background-color: cadetblue;
+    color: #ffffff;
+    text-align: left;
+    font-size: 12px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgb(38, 77, 115), 0 6px 20px 0 rgb(25, 51, 77);
 }
 
 h1 {
@@ -113,9 +128,14 @@ h3 {
     font-size: 30px;
 }
 
+h4 {
+    text-align: left;
+    font-size: 20px;
+}
+
 a {
     text-decoration: none;
-    text-align: center;
+    text-align: left;
 }
 
 p {
