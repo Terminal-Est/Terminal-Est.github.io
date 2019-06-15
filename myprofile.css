@@ -54,12 +54,6 @@
         width: 100%;
     }
 
-@media only screen and (max-width: 800px) {
-    [class*="div-"] {
-        width: 100%;
-    }
-}
-
 html {
     font-family: Tahoma, Geneva, sans-serif;
 }
@@ -79,7 +73,7 @@ html {
 }
 
 .linksMenu li {
-    padding: 15px;
+    padding: 20px;
     background-color: cadetblue;
     color: black;
     font-size: 30px;
@@ -92,15 +86,6 @@ html {
 .rightPane  {
     text-align: left;
     padding: 10px;
-}
-@media only screen and (min-width: 900px) {
-    .rightImg {
-        transition: all 0.5s ease-in-out;
-    }
-
-    .rightImg:hover {
-        transform: translateX(-300px) scale(1.5);
-    }
 }
 
 .footer {
@@ -138,13 +123,15 @@ h1 {
 }
 
 h2 {
-    padding-left: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
     font-size: 40px;
     text-decoration: underline;
 }
 
 h3 {
-    padding-left: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
     font-style: italic;
     font-size: 30px;
 }
@@ -160,7 +147,9 @@ a {
 }
 
 p {
-    padding-left: 20px;
+    font-size: large;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 
@@ -171,4 +160,42 @@ img {
     max-width: 100%;
     min-height: 50%;
     min-width: 50%;
+}
+
+@media only screen and (max-width: 800px) {
+    [class*="div-"] {
+        width: 100%;
+    }
+    p {
+        font-size: large;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    h2 {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 40px;
+        text-decoration: underline;
+    }
+    h3 {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-style: italic;
+        font-size: 30px;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 900px) {
+    .rightImg {
+        transition: all 0.5s ease-in-out;
+
+    }
+
+    .rightImg:hover {
+        transform: translateX(-300px) scale(1.5);
+    }
 }
