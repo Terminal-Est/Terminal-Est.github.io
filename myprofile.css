@@ -56,6 +56,7 @@
 
 html {
     font-family: Tahoma, Geneva, sans-serif;
+    background-color: blanchedalmond;
 }
 
 .header {
@@ -80,7 +81,7 @@ html {
 }
 
 .linksMenu li:hover {
-    background-color: lightcoral;
+    background-color: slategray;
 }
 
 .rightPane  {
