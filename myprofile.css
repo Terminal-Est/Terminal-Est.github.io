@@ -148,9 +148,9 @@ a {
 }
 
 p {
-    font-size: 25px;
-    padding-left: 200px;
-    padding-right: 200px;
+    font-size: medium;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 
@@ -168,7 +168,7 @@ img {
         width: 100%;
     }
     p {
-        font-size: large;
+        font-size: small;
         padding-left: 10px;
         padding-right: 10px;
     }
