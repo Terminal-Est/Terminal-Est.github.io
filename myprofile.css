@@ -124,15 +124,15 @@ h1 {
 }
 
 h2 {
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 150px;
+    padding-right: 150px;
     font-size: 40px;
     text-decoration: underline;
 }
 
 h3 {
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 150px;
+    padding-right: 150px;
     font-style: italic;
     font-size: 30px;
 }
@@ -148,7 +148,7 @@ a {
 }
 
 p {
-    font-size: medium;
+    font-size: large;
     padding-left: 150px;
     padding-right: 150px;
 }
